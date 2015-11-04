@@ -1,4 +1,4 @@
-/*game 3*/
+/*game3*/
 PImage bg1,bg2,enemy,fighter,hp,treasure,start1,start2,end1,end2;
 float Hp=197;
 float tSpeed=5;
