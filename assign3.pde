@@ -1,8 +1,8 @@
-/*game3*/
+/*game 3*/
 PImage bg1,bg2,enemy,fighter,hp,treasure,start1,start2,end1,end2;
 float Hp=197;
 float tSpeed=5;
-float hpx;//hpx=floor(random(197));
+float hpx;
 float fx=550,fy=240;
 float tx=random(41,601),ty=random(41,441);
 int bgx1=641,bgx2=0;
@@ -142,7 +142,7 @@ void draw()
                     ey1=eStartY+(2+i)*enemyHeight;
                     ey2=eStartY+(2-i)*enemyHeight;
                   }
-                  if(i>2)
+                  if(i>=3&&i<5)
                   {
                     ey1=eStartY+(i/2)*enemyHeight;
                     ey2=eStartY+(6-i)*enemyHeight;
