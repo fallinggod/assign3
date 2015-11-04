@@ -144,8 +144,8 @@ void draw()
                   }
                   if(i>=3&&i<5)
                   {
-                    ey1=eStartY+(i/2)*enemyHeight;
-                    ey2=eStartY+(6-i)*enemyHeight;
+                    ey1=eStartY+(6-i)*enemyHeight;
+                    ey2=eStartY+(i-2)*enemyHeight;
                   }
                   image(enemy,ex,ey1);
                   image(enemy,ex,ey2);
